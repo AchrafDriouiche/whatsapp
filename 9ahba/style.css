@@ -1,0 +1,1553 @@
+/*! CSS Used from: https://accounts.snapchat.com/accounts/static/styles/semantic.min.css */
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
+
+article {
+  display: block;
+}
+
+a {
+  background: 0 0;
+  color: #009fda;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+textarea {
+  overflow: auto;
+}
+
+button,
+input,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  background: #fff;
+  font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  line-height: 1.33;
+  color: rgba(0, 0, 0, 0.8);
+  font-smoothing: antialiased;
+}
+
+h1 {
+  font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height: 1.33em;
+  margin: -webkit-calc(2rem - 0.165em) 0 1rem;
+  margin: calc(2rem - 0.165em) 0 1rem;
+  font-weight: 600;
+  padding: 0;
+}
+
+h1 {
+  min-height: 1rem;
+  font-size: 2.5rem;
+}
+
+a:hover {
+  color: #00b2f3;
+}
+
+::-webkit-selection {
+  background-color: #cce2ff;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+::-moz-selection {
+  background-color: #cce2ff;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+::selection {
+  background-color: #cce2ff;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+input::-webkit-selection,
+textarea::-webkit-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+input::-moz-selection,
+textarea::-moz-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+input::selection,
+textarea::selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/*! CSS Used from: https://accounts.snapchat.com/accounts/static/styles/snapchat.css?t=0 */
+a {
+  cursor: pointer;
+}
+
+/*! CSS Used from: https://accounts.snapchat.com/accounts/static/styles/accounts.css */
+.accountsTitle {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+/*! CSS Used from: Embedded */
+body {
+  margin: 0;
+}
+
+article {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+textarea {
+  overflow: auto;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue For Number", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #fff;
+}
+
+body,
+div,
+h1,
+form,
+input,
+textarea,
+button,
+article {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+  display: none;
+}
+
+::-moz-selection {
+  background: #108ee9;
+  color: #fff;
+}
+
+::selection {
+  background: #108ee9;
+  color: #fff;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+}
+
+a {
+  color: #108ee9;
+  background: transparent;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+a:focus {
+  text-decoration: underline;
+  -webkit-text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
+}
+
+a:hover {
+  color: #49a9ee;
+}
+
+a:active {
+  color: #0e77ca;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+  text-decoration: none;
+}
+
+label {
+  font-size: 12px;
+}
+
+label {
+  position: relative;
+}
+
+body {
+  margin: 0;
+}
+
+article {
+  display: block;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: visible;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+textarea {
+  overflow: auto;
+}
+
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  line-height: 1.42857;
+  color: #000;
+  background-color: #fff;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+a {
+  color: #0aff0a;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #b3b000;
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.full-background-color {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(
+    to right,
+    #f7ee3b 0%,
+    #fffc0a 20%,
+    #fffc05 40%,
+    #faf700 60%,
+    #f5f200 80%,
+    #f5e200 100%
+  );
+}
+
+h1 {
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  min-width: 992px;
+}
+
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: -16px;
+}
+
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.col-xs-4,
+.col-xs-8 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 16px;
+}
+
+.col-xs-4,
+.col-xs-8 {
+  float: left;
+}
+
+.col-xs-4 {
+  width: 33.33333%;
+}
+
+.col-xs-8 {
+  width: 66.66667%;
+}
+
+.btn {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 0;
+  font-weight: 400;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+  letter-spacing: 0.1px;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  min-width: 60px;
+  padding: 5.5px 32px 6.5px 32px;
+  font-size: 13px;
+  line-height: 1.42857;
+  border-radius: 25px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+  -webkit-transition: padding 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    background-color 0.16s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    border-color 0.16s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -o-transition: padding 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    background-color 0.16s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    border-color 0.16s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: padding 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    background-color 0.16s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    border-color 0.16s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.btn:focus,
+.btn:active:focus {
+  outline: none !important;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn:hover,
+.btn:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.btn:active {
+  outline: 0;
+  background-image: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0aff0a;
+  border-color: transparent;
+}
+
+.btn-primary:focus {
+  color: #fff;
+}
+
+.btn-primary:hover {
+  color: #fff;
+}
+
+.btn-primary:active {
+  color: #fff;
+}
+
+.btn-primary:active:hover,
+.btn-primary:active:focus {
+  color: #fff;
+}
+
+.btn-primary:active {
+  background-image: none;
+}
+
+.btn-primary:hover {
+  background: #e0de00;
+}
+
+.btn-lg {
+  padding: 16px 64px;
+  font-size: 17px;
+  line-height: 1.3;
+  border-radius: 45px;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 2.5px;
+  color: #9a9fa7;
+  text-transform: uppercase;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: none;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 39px;
+  padding: 8px 16px 8px 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.42857;
+  color: #000;
+  background-color: #fff;
+  background-image: none;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid #dfe3e7;
+  border-right: none;
+  border-radius: 0;
+  -webkit-transition: border-color ease-in-out 0.1s, box-shadow ease-in-out 0.1s;
+  -o-transition: border-color ease-in-out 0.1s, box-shadow ease-in-out 0.1s;
+  transition: border-color ease-in-out 0.1s, box-shadow ease-in-out 0.1s;
+}
+
+.form-control:focus {
+  border-color: #0aff0a;
+  outline: 0;
+}
+
+.form-control::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #999;
+}
+
+.form-control::-ms-expand {
+  border: 0;
+  background-color: transparent;
+}
+
+.form-select-wrapper:not(.form-select-multiple) {
+  display: block;
+  position: relative;
+  left: 0;
+}
+
+.form-select-wrapper:not(.form-select-multiple) select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.form-select-wrapper:not(.form-select-multiple) select + .icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9a9fa7;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 15px;
+  cursor: text;
+  -webkit-transition: border-color ease-in-out 0.1s, box-shadow ease-in-out 0.1s;
+  -o-transition: border-color ease-in-out 0.1s, box-shadow ease-in-out 0.1s;
+  transition: border-color ease-in-out 0.1s, box-shadow ease-in-out 0.1s;
+}
+
+.form-group:focus {
+  outline: 0;
+}
+
+.form-group:hover {
+  border-color: #ced4da;
+}
+
+.page {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 40px 0px #0aff0a, 0px -4px 8px 0px rgba(0, 0, 0, 0.05),
+    0px -1px 10px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 30px 30px 0 0;
+  min-width: 992px;
+  min-height: calc(100vh - 60px);
+  position: relative;
+  top: 60px;
+  padding-top: 24px;
+}
+
+.page > .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+.page > .container:before,
+.page > .container:after {
+  content: " ";
+  display: table;
+}
+
+.page > .container:after {
+  clear: both;
+}
+
+a {
+  cursor: pointer;
+  color: #0aff0a;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #b3b000;
+  border-bottom: 1px solid #b3b000;
+}
+
+svg.icon {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+svg.icon-color:not(.svg-no-adaptive-fill),
+svg.icon-color g:not(.svg-no-adaptive-fill),
+svg.icon-color path:not(.svg-no-adaptive-fill) {
+  fill: currentColor !important;
+}
+
+body {
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-weight: 400;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #16191c;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  overflow-y: auto;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+body .App .Header {
+  text-align: center;
+  position: relative;
+}
+
+body .App .Header .logo:hover {
+  border-bottom: 0;
+}
+
+body .App .Header .logo img {
+  padding-top: 1rem;
+  width: 34px;
+}
+
+body .App .ResetPasswordByPhone .page {
+  top: 10px;
+  padding-top: 40px;
+  min-width: 0px;
+}
+
+body .App .ResetPasswordByPhone .page .container {
+  min-width: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+body .App .ResetPasswordByPhone .page .btn-lg {
+  padding: 16px 0px;
+}
+
+body .App .ResetPasswordByPhone .accountsTitle {
+  font-family: Avenir Next Medium;
+  font-size: 24px;
+  color: #15191c;
+  line-height: 32px;
+  text-align: center;
+  width: 88%;
+  max-width: 400px;
+  margin: 0px auto;
+  font-weight: 500;
+}
+
+body .App .ResetPasswordByPhone .description {
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: center;
+  width: 88%;
+  max-width: 400px;
+  color: #15191c;
+  margin: 64px auto 0px;
+}
+
+body .App .ResetPasswordByPhone .description.error {
+  color: #f01b47;
+}
+
+body .App .ResetPasswordByPhone .centered_form {
+  width: 286px;
+  margin: 64px auto 80px;
+}
+
+body .App .ResetPasswordByPhone .form-control:hover {
+  border-color: #bfbfbf;
+}
+
+body .App .ResetPasswordByPhone .form-control:focus {
+  border-color: #0eadff;
+}
+
+body .App .ResetPasswordByPhone button:not(.password-button) {
+  color: #fff;
+  text-align: center;
+  width: 222px;
+  background-color: #0eadff;
+  display: block;
+  margin: 0px auto;
+}
+
+body .App .ResetPasswordByPhone button:not(.password-button).btn-lg {
+  padding: 16px 0px;
+}
+
+body .App .ResetPasswordByPhone button:not(.password-button):hover {
+  color: #fff;
+  background-color: #3ebdff;
+}
+
+body .App .ResetPasswordByPhone button:not(.password-button):active {
+  background-color: #0b8acc;
+}
+
+body .App .ResetPasswordByPhone button:not(.password-button):disabled {
+  background-color: #b8c1c7;
+}
+
+body .App .ResetPasswordByPhone .primary_action {
+  margin: 64px auto 0px;
+  display: block;
+}
+
+body .App .ResetPasswordByPhone .footer {
+  position: relative;
+  top: 10px;
+}
+
+body .App .ResetPasswordByPhone .footer a:hover {
+  border-bottom: 0;
+}
+
+.App {
+  display: block !important;
+}
+
+/*! CSS Used from: Embedded */
+#reset-password-by-phone ::-webkit-input-placeholder {
+  color: #858d94;
+}
+
+#reset-password-by-phone :-moz-placeholder {
+  color: #858d94;
+  opacity: 1;
+}
+
+#reset-password-by-phone ::-moz-placeholder {
+  color: #858d94;
+  opacity: 1;
+}
+
+#reset-password-by-phone :-ms-input-placeholder {
+  color: #858d94;
+}
+
+#reset-password-by-phone ::-ms-input-placeholder {
+  color: #858d94;
+}
+
+#reset-password-by-phone ::placeholder {
+  color: #858d94;
+}
+
+#reset-password-by-phone .form-control::-webkit-input-placeholder {
+  color: #858d94;
+  font-weight: 400;
+}
+
+#reset-password-by-phone label {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+#reset-password-by-phone .form-group .form-control {
+  background: #f7f7f7;
+  border-radius: 4px;
+  border: 1px solid #f7f7f7;
+  box-shadow: 0 0 0 0 transparent;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 44px;
+  padding: 0 0 0 12px;
+  margin-bottom: 16px;
+  transition: box-shadow 0.15s ease-out 0.15s, border-color 0.15s ease-out,
+    background 0.15s ease-out 0.15s, color 0.15s ease-out;
+  width: 100%;
+}
+
+#reset-password-by-phone .form-group .form-control:hover {
+  border-color: #ffd301;
+}
+
+#reset-password-by-phone .form-group .form-control:focus {
+  border-color: transparent;
+  border-bottom-color: #ffd301;
+  box-shadow: 0 1px 0 0 #ffd301;
+  background: #f2f2f2;
+  color: #343a40;
+  outline: none;
+}
+
+#reset-password-by-phone .form-group .form-control:disabled {
+  color: #acb0b5;
+  cursor: not-allowed;
+  background: #ebebeb
+    repeating-linear-gradient(
+      45deg,
+      #ebebeb,
+      #ebebeb 2px,
+      #f2f2f2 2px,
+      #f2f2f2 8px
+    );
+}
+
+#reset-password-by-phone .form-group .form-control:disabled:hover {
+  color: #acb0b5;
+  cursor: not-allowed;
+  background: #ebebeb
+    repeating-linear-gradient(
+      45deg,
+      #ebebeb,
+      #ebebeb 2px,
+      #f2f2f2 2px,
+      #f2f2f2 8px
+    );
+  border-color: #f7f7f7;
+}
+
+#reset-password-by-phone .form-group svg {
+  display: none;
+}
+
+#reset-password-by-phone input[type="tel"] {
+  -webkit-appearance: none;
+}
+
+#reset-password-by-phone .btn {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0;
+  transition: all 150ms ease-in-out;
+  border: 1px solid transparent;
+  padding: 8px 20px;
+  width: auto;
+}
+
+#reset-password-by-phone .btn:disabled {
+  color: #acb0b5;
+  border-color: #e3e3e3;
+  border-style: solid;
+  cursor: not-allowed;
+  background: #ebebeb
+    repeating-linear-gradient(
+      45deg,
+      #ebebeb,
+      #ebebeb 2px,
+      #f2f2f2 2px,
+      #f2f2f2 8px
+    );
+}
+
+#reset-password-by-phone .btn:disabled:hover {
+  background: #ebebeb
+    repeating-linear-gradient(
+      45deg,
+      #ebebeb,
+      #ebebeb 2px,
+      #f2f2f2 2px,
+      #f2f2f2 8px
+    );
+  color: #acb0b5;
+  border-color: #e3e3e3;
+}
+
+#reset-password-by-phone .btn.btn-lg {
+  padding: 11px 24px 10px;
+  font-size: 14px;
+  line-height: 17px;
+  width: auto;
+}
+
+#reset-password-by-phone .btn-primary,
+#reset-password-by-phone .btn-primary:active,
+#reset-password-by-phone .btn-primary:focus,
+#reset-password-by-phone .btn-primary:hover,
+#reset-password-by-phone .btn-primary:active:hover {
+  background-color: #0aff0a;
+  color: #16191c;
+  font-weight: 500;
+}
+
+#reset-password-by-phone .btn-primary:hover {
+  border: 1px solid transparent;
+  background-color: #fff600;
+}
+
+#reset-password-by-phone .full-background-color,
+#reset-password-by-phone .footer {
+  background: #f2f2f2;
+}
+
+#reset-password-by-phone .footer > div:last-child {
+  background-color: #ffffff !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.04);
+  border-top: solid 1px #e3e3e3;
+}
+
+#reset-password-by-phone .page {
+  background: none;
+  box-shadow: none;
+  border-radius: unset;
+  border: none;
+}
+
+#reset-password-by-phone .page .container {
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #ebebeb;
+  width: 356px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.04);
+  padding: 24px;
+}
+
+#reset-password-by-phone .Header .logo {
+  display: none;
+}
+
+#reset-password-by-phone .snapchat-icon {
+  width: 40px;
+  margin: 0px auto 12px auto;
+  display: table;
+}
+
+#reset-password-by-phone .accountsTitle {
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  color: #16191c;
+  margin-top: 12px;
+}
+
+#reset-password-by-phone .description {
+  margin: 4px 24px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  width: unset;
+  color: #656b73;
+}
+
+#reset-password-by-phone .description.error {
+  color: #e1143d;
+}
+
+#reset-password-by-phone .primary_action {
+  margin: 0px auto;
+}
+
+#reset-password-by-phone a {
+  color: #656b73;
+  border-bottom: 2px solid transparent;
+  transition: all 0.1s ease-in;
+  font-weight: 400;
+}
+
+#reset-password-by-phone a:hover {
+  color: #16191c;
+  border-bottom: 2px solid #ffd301;
+}
+
+#reset-password-by-phone .centered_form {
+  margin: 24px auto 0;
+  width: unset;
+}
+
+#reset-password-by-phone .control-label {
+  color: #656b73;
+  text-transform: none;
+  letter-spacing: 0;
+  text-align: inherit;
+  height: 16px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#reset-password-by-phone .btn:not(.password-button) {
+  box-shadow: none;
+}
+
+#reset-password-by-phone .footer-bottom-bar a:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #ffd301;
+}
+
+/*! CSS Used from: Embedded */
+.footer-container,
+.footer-bottom-bar {
+  width: 92.3%;
+  max-width: 1070px;
+  margin: auto;
+}
+
+.footer-container {
+  box-sizing: content-box;
+  position: relative;
+  padding: 30px 0 30px;
+  min-height: 195px;
+}
+
+.footer-container .footer-column {
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+  width: 25%;
+  padding-right: 6.25%;
+}
+
+.footer-container .footer-column .footer-column-header {
+  box-sizing: content-box;
+  line-height: 23px;
+  font-weight: 500;
+}
+
+.footer-container .footer-column .footer-column-expand-caret {
+  display: none;
+}
+
+.footer-container .footer-column a {
+  display: table;
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  line-height: 17px;
+  margin-top: 6px;
+}
+
+.footer-container .footer-column a:hover {
+  color: black;
+}
+
+.footer-container .langue-selection-block {
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0 6.25% 15px 0;
+  bottom: 15px;
+  width: 25%;
+}
+
+.footer-container .langue-selection-block .langue-header {
+  font-weight: 500;
+}
+
+.footer-bottom-bar a {
+  line-height: 56px;
+  margin-right: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .footer-container,
+  .footer-bottom-bar {
+    width: 100%;
+    padding: 0;
+    max-width: none;
+  }
+
+  .footer-container .footer-column {
+    padding: 0;
+    width: 100%;
+  }
+
+  .footer-container .footer-column a,
+  .footer-container .footer-column .footer-column-header {
+    margin-top: 0;
+    padding: 10px 40px;
+    width: calc(100% - 80px);
+    line-height: 25px;
+  }
+
+  .footer-container .footer-column .footer-column-header,
+  .footer-container .langue-selection-block {
+    border-top: solid 1px #d4d4d4;
+  }
+
+  .footer-container .footer-column .footer-column-header {
+    cursor: pointer;
+    background-color: white;
+  }
+
+  .footer-container .footer-column .footer-column-expand-caret {
+    display: block;
+    position: absolute;
+    left: 16px;
+    top: 15px;
+    width: 15px;
+    height: 20px;
+    transform-origin: 55% 45%;
+    cursor: pointer;
+  }
+
+  .footer-container .footer-column a {
+    font-weight: 600;
+    color: black;
+    border-top: solid 1px #e5e5e5;
+    display: none;
+  }
+
+  .footer-container .langue-selection-block {
+    position: static;
+    width: 100%;
+    height: inherit;
+    top: inherit;
+    padding: 14px 20px 15px;
+  }
+
+  .footer-bottom-bar a {
+    display: block;
+    line-height: 45px;
+    margin-right: 0;
+    padding-left: 20px;
+    border-bottom: solid 1px #d4d4d4;
+  }
+}
+
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: "Helvetica Neue For Number";
+  src: local("Helvetica Neue");
+  unicode-range: U+30-39;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-UltraLight.woff2")
+      format("woff2"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-UltraLight.woff")
+      format("woff"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-UltraLight.ttf")
+      format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-UltraLightItalic.woff2")
+      format("woff2"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-UltraLightItalic.woff")
+      format("woff"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-UltraLightItalic.ttf")
+      format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-Regular.woff2")
+      format("woff2"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-Regular.woff")
+      format("woff"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-Regular.ttf")
+      format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-Medium.woff2")
+      format("woff2"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-Medium.woff")
+      format("woff"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-Medium.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-MediumItalic.woff2")
+      format("woff2"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-MediumItalic.woff")
+      format("woff"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-MediumItalic.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-DemiBold.woff2")
+      format("woff2"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-DemiBold.woff")
+      format("woff"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-DemiBold.ttf")
+      format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-DemiBoldItalic.woff2")
+      format("woff2"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-DemiBoldItalic.woff")
+      format("woff"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-DemiBoldItalic.ttf")
+      format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-DemiBold.woff2")
+      format("woff2"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-DemiBold.woff")
+      format("woff"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-DemiBold.ttf")
+      format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-DemiBoldItalic.woff2")
+      format("woff2"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-DemiBoldItalic.woff")
+      format("woff"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-DemiBoldItalic.ttf")
+      format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-Bold.woff2")
+      format("woff2"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-Bold.woff")
+      format("woff"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-Bold.ttf")
+      format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-BoldItalic.woff2")
+      format("woff2"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-BoldItalic.woff")
+      format("woff"),
+    url("https://snapnet-cdn.storage.googleapis.com/fonts/avenir-next/AvenirNext-BoldItalic.ttf")
+      format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url(data:application/font-woff2;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICI0OGIzODI0NzUwOGU5OWExMmJlOGQxOGVjYzE5ZDE4NS53b2ZmMiI7)
+      format("woff2"),
+    url(data:application/font-woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICIwZWEwMTcxMzY4YTE5NTNiODg1MTk2YmVlNzhhYzkyZC53b2ZmIjs=)
+      format("woff"),
+    url(data:application/x-font-ttf;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJlMzQ0YTBjNTk4YWZjNzJjMmZiNzRiMGJhYWY5ZDk3ZS50dGYiOw==)
+      format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url(data:application/font-woff2;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICI1NWFiMTQ4YTViNTA3YWRmZGZlM2QzODgwNjUxOTA4ZS53b2ZmMiI7)
+      format("woff2"),
+    url(data:application/font-woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJmYTIxYWExZTNmMWU1NjFmMWZmODM2NTg1NDJhMjYxYi53b2ZmIjs=)
+      format("woff"),
+    url(data:application/x-font-ttf;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICI3YjY0YmIxNTMzMzNjYmU1OTg2ZGIzMzVkOGMzMjllYy50dGYiOw==)
+      format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url(data:application/font-woff2;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICI5OWIyMjBlODc4NzZhYzMxOGFkOTZiMDQ3M2E3OGM3Yi53b2ZmMiI7)
+      format("woff2"),
+    url(data:application/font-woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICIzOWZkOTkxZWY5ZDZkNjVhMDM1NDA3ZDkwOTdmZDYzZi53b2ZmIjs=)
+      format("woff"),
+    url(data:application/x-font-ttf;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJjYzA1ODA2MTgzZWQwZGVkNWY0MGJlODU3ZTE0Y2RiMi50dGYiOw==)
+      format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url(data:application/font-woff2;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICIxMTRiMWZmNDg4ODg4MzdjNGEyNjQ5ZDM5ODhlMjE1Yy53b2ZmMiI7)
+      format("woff2"),
+    url(data:application/font-woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICI2M2IxY2ZmYmI0OWQ4MTE2NGRiYmU5MzE1ZDU2MzdkMy53b2ZmIjs=)
+      format("woff"),
+    url(data:application/x-font-ttf;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICI2NWQ5N2FkNTVhMjU0NDEzNjdkNjE2NTdlNDQyNGE3NS50dGYiOw==)
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url(data:application/font-woff2;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJjNTM3MzlmMzRjNjRhY2JkODc4Y2Y2MGQ4MjgzOGYwZS53b2ZmMiI7)
+      format("woff2"),
+    url(data:application/font-woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICIwZDY1MDQ3ZGIxYzY3N2VkMTExMDA3NjcxOTlmZTM0Mi53b2ZmIjs=)
+      format("woff"),
+    url(data:application/x-font-ttf;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJmNWIxZmVhMDMzNDZiYjA2NTZkMzhkNTExMmNkMTNkNC50dGYiOw==)
+      format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url(data:application/font-woff2;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJlNmY2MjY4MTg0ZjViNGRkNDllMWRjZTc5NzQ5NDY3Ny53b2ZmMiI7)
+      format("woff2"),
+    url(data:application/font-woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJlYTZiNDUxYTg0NDU3ODE1MTdlZWZiNGVlNDFlNDQ0Ny53b2ZmIjs=)
+      format("woff"),
+    url(data:application/x-font-ttf;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJhNjJkNmYyYzMyNGM3N2QwY2M5YTgyOTk2ZWI2OWEwNi50dGYiOw==)
+      format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url(data:application/font-woff2;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJiZGM2YWUwZmE3ZjNlYjQ3YWY2NjY5ZmJhMTYyZDk3ZC53b2ZmMiI7)
+      format("woff2"),
+    url(data:application/font-woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJlN2RjNWI4ZmVhOTEwZjRjNDg0OWMwOGYxOGU2MmQwNC53b2ZmIjs=)
+      format("woff"),
+    url(data:application/x-font-ttf;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJhMTBkN2ZlNWUwNThkN2FmMWQ0ZTg3MGZlMmY1MDA4NC50dGYiOw==)
+      format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url(data:application/font-woff2;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJlNmY2MjY4MTg0ZjViNGRkNDllMWRjZTc5NzQ5NDY3Ny53b2ZmMiI7)
+      format("woff2"),
+    url(data:application/font-woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJlYTZiNDUxYTg0NDU3ODE1MTdlZWZiNGVlNDFlNDQ0Ny53b2ZmIjs=)
+      format("woff"),
+    url(data:application/x-font-ttf;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJhNjJkNmYyYzMyNGM3N2QwY2M5YTgyOTk2ZWI2OWEwNi50dGYiOw==)
+      format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url(data:application/font-woff2;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJiZGM2YWUwZmE3ZjNlYjQ3YWY2NjY5ZmJhMTYyZDk3ZC53b2ZmMiI7)
+      format("woff2"),
+    url(data:application/font-woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJlN2RjNWI4ZmVhOTEwZjRjNDg0OWMwOGYxOGU2MmQwNC53b2ZmIjs=)
+      format("woff"),
+    url(data:application/x-font-ttf;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJhMTBkN2ZlNWUwNThkN2FmMWQ0ZTg3MGZlMmY1MDA4NC50dGYiOw==)
+      format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url(data:application/font-woff2;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICI3ZTlhYzQwYTliZTNjZDM4NDM3Mjc3NWQ4NTc0MGQyZC53b2ZmMiI7)
+      format("woff2"),
+    url(data:application/font-woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJlNzAyOGNjZDgwYzgwYjc0Yjg4ODUyNjVmZWQzN2Q3ZS53b2ZmIjs=)
+      format("woff"),
+    url(data:application/x-font-ttf;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICI5NmNhMDJjZmM4NTFjYzY3MDU0ZjU1NThjYWJjYTIwNy50dGYiOw==)
+      format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir Next";
+  src: url(data:application/font-woff2;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICI4NDhkYmZlOTM1MDA4MjQ1ZDUwODliNjY0OGM2OGRmMC53b2ZmMiI7)
+      format("woff2"),
+    url(data:application/font-woff;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJiZDQ0OWI0OTkxY2UzY2U0M2ZkNzRmYTdlOTk5NWYzMy53b2ZmIjs=)
+      format("woff"),
+    url(data:application/x-font-ttf;base64,bW9kdWxlLmV4cG9ydHMgPSBfX3dlYnBhY2tfcHVibGljX3BhdGhfXyArICJlZjI2ZWZkZTBkZTU1YzlmNDAwN2E0ZDI5Y2IzOTAyYy50dGYiOw==)
+      format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
